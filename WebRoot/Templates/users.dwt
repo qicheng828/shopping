@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/modo.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Gogo商场账号管理</title>
+<!-- InstanceEndEditable -->
+<link href="../css/index/index.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	* {
+		margin:0px;
+		font-size:12px;
+		color:#666666;
+	}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+	* {
+		margin:0px;
+		font-size:12px;
+		color:#666666;
+	}
+	#users .border{
+		width:7px; height:100px; background-repeat:repeat-y;
+	}
+	#users #use{float:left;}
+	#users #use p{margin:20px 0px 10px 12px;}
+	.dingdan{background-image:url(../img/users/users-mid.jpg); height:100px; padding:10px;}
+	.dingdan p{border-bottom:1px dashed #cccccc; margin-bottom:6px; padding-left:20px; padding-bottom:6px;}
+	.dingdan p a{color:#000000;}
+	#xinxi{padding:15px;}
+	#xinxi p{margin:8px 0px;}
+	#xinxi table td{height:25px; text-align:center;border-bottom:1px solid #E5E5E5; border-right:1px solid #E5E5E5;}
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div style="width:980px; margin:0px auto;">
+  <div id="top">
+    	<div id="con">
+        	<span class="c" style="padding-left:30px;"><a href="../front/index.html">Gogo首页</a></span>
+            <span>|</span>
+            <span class="c"><a href="../users/showForder.html">我的购物车</a></span>
+             <span>|</span>
+            <span class="c"><a href="../users/usersForder.html">我的Gogo</a></span>
+            <span style="margin-left:40px;">****欢迎光临Gogo商城！</span>
+            <span><strong style="color:#D369D7;">
+            	[<a href="../front/register.html" style="color:#D369D7;">注册</a>/<a href="../front/userLogin.html" style="color:#D369D7;">登录</a>]</strong>
+           	</span>        
+      	</div>
+   	 	<div id="logo">
+      		<img style="float:left;" src="../img/index/logo.jpg" width="220" height="80"/>
+            <div id="beat">
+            	<img style="float:left" src="../img/index/top_line2_search_01.gif" />
+                <form action="" method="post">
+                    <input id="text" type="text" name="text" style="" />
+                    <input id="submit" type="image" src="../img/index/top_line2_search_02.gif" />
+                    <input type="hidden" name=""/>
+              	</form>
+            </div>
+            <div id="car">
+            	<img style="float:left" src="../img/index/shop-left.jpg" />
+                <img style="float:right" src="../img/index/shop-right.jpg" />
+                <span style="color:#000000; margin-left:10px;">购物车：<span style="color:#FF0000; font:bold">0</span>件商品</span>
+                <span style="margin-left:15px;"><a href="../users/showForder.html" style="color:#FF0000;">去结算>></a></span>
+           	</div>
+      	</div>
+      	<div id="menu">
+      		<img style="float:left" src="../img/index/menu-l.gif" />
+        	<img style="float:right" src="../img/index/menu-r.gif" />
+            <ul>
+       		  	<li><a href="../front/index.html"><b>首页</b></a></li>
+               	<li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="../img/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+        	</ul>
+    	</div>
+  </div>
+    
+    <!-- InstanceBeginEditable name="EditRegion3" -->
+    <div id="mid">
+    	<div style="background-image:url(../img/users/bg.jpg); height:27px; border:1px solid #cccccc; margin:20px 0px;">
+        	<img src="../img/users/Snap3.jpg" />        </div>
+        <div id="left" style="width:180px;">
+        	<div>
+            	<div style="background-image:url(../img/users/top.jpg); width:180px; height:35px;">
+            	  <h4 style="color:#990000; font-size:14px; padding:6px 0px 0px 22px;">草人4号</h4>
+            	</div>
+                <div id="users">
+                   <div class="border" style="background-image:url(../img/users/left.jpg); float:left;"></div>
+                   <div id="use">
+                        <p>您好！欢迎光临Gogo商城！</p>
+                        <p>您现在是：<span style="color:#990000;">普通会员</span></p>
+                   </div>
+                   <div class="border" style="background-image:url(../img/users/right.jpg); float:right;"></div>
+                </div>
+                <div style="background-image:url(../img/users/usersMan-bot-bg.jpg);background-repeat:repeat-x;height:11px;clear:both">
+                	<img style="float:left" src="../img/users/usersMan-bot-left.jpg" />
+                    <img style="float:right" src="../img/users/usersMan-bot-right.jpg" />
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+            <div style="margin:10px 0px;">
+            	<div style="background-image:url(../img/users/users-dingdan-Top.jpg); height:41px;"></div>
+                <div class="dingdan">
+                	<p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="../users/usersForder.html">我的订单</a>
+                    </p>
+                    <p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="#">账户余额</a>
+                    </p>
+                    <p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="../users/privilege.html">我的优惠券</a>
+                    </p>
+                </div>
+                <div style="background-image:url(../img/users/users-bot.jpg);background-repeat:no-repeat;height:3px;"></div>
+            </div>
+            <div style="margin:10px 0px;">
+            	<div style="background-image:url(../img/users/users-info-Top.jpg); height:41px;"></div>
+                <div class="dingdan">
+                	<p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="../users/alterPassword.html">修改密码</a>
+                    </p>
+                    <p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="../users/usersInfo.html">编辑个人资料</a>
+                   	</p>
+                </div>
+                <div style="background-image:url(../img/users/users-bot.jpg); background-repeat:no-repeat; height:3px;"></div>
+            </div>
+            <div style="margin:10px 0px;">
+            	<div style="background-image:url(../img/users/users-info-Top.jpg); height:41px;"></div>
+                <div class="dingdan" style="height:50px;">
+                	<p>
+                    	<span style="color:#990000; font-size:18px; margin-right:6px;">▪</span>
+                        <a href="#">退出管理</a>
+                    </p>
+                </div>
+                <div style="background-image:url(../img/users/users-bot.jpg); background-repeat:no-repeat; height:3px;"></div>
+            </div>
+        </div>
+        <div id="right" style="width:780px; margin-bottom:10px;">
+        	<div style="background-image:url(../img/users/xiangxi-center-top.jpg);background-repeat:repeat-x;height:8px;clear:both">
+                	<img style="float:left" src="../img/users/xiangxi-left-top.jpg" />
+                    <img style="float:right" src="../img/users/xiangxi-right-top.jpg" />
+                    <div style="clear:both"></div>
+            </div>
+            <div style="background-image:url(../img/users/Snap5.jpg);background-repeat:repeat-y;padding-bottom:30px;">
+                   <!-- TemplateBeginEditable name="EditRegion2" -->EditRegion2<!-- TemplateEndEditable -->
+              <div style="clear:both"></div>
+            </div>
+            <div style="background-image:url(../img/users/xiangxi-center-bot.jpg);background-repeat:repeat-x;height:8px;clear:both">
+                	<img style="float:left" src="../img/users/xiangxi-left-bot.jpg" />
+                    <img style="float:right" src="../img/users/xiangxi-right-bot.jpg" />
+                    <div style="clear:both"></div>
+            </div>
+        </div>
+    </div>
+	<!-- InstanceEndEditable -->
+    <div id="bot">
+       	  <div id="we">
+            	<a href="#">关于我们</a> – 
+                <a href="#">帮助中心</a> – 
+                <a href="#">配送方式</a> – 
+                <a href="#">支付方式</a> – 
+                <a href="#">客服中心</a> – 
+                <a href="#">友情链接</a> – 
+                <a href="#">诚聘英才</a> – 
+                <a href="#">产品招商</a> – 
+                <a href="#">送礼指南</a> – 
+                <a href="#">网站地图</a> 
+          </div>
+          <div id="info">
+           	  <p>Copyright © <a href="../front/index.html">Gogo</a> 2010-2012, All Rights Reserved</p>
+              <p>地址：郴州市苏仙区东铁营顺三条18号院(金隅中威商务花园)一号楼109-A</p>
+              <p>Tel: (0735) 888888 Fax: (0735) 8888888  Email:ghost675340058.com 湘ICP证090719号</p>
+              <p>本网站隶属于郴州清华IT--Ghost制作</p>
+              <hr />
+              <p style="color:#CC3300">Gogo商城与国内知名支付平台合作,确保您的交易安全! </p>
+              <img src="../img/index/boot_01.jpg" />
+              <img src="../img/index/boot_02.jpg" />
+              <img src="../img/index/boot_03.jpg" />
+              <img src="../img/index/boot_04.jpg" />
+              <img src="../img/index/logo123x40.jpg" />
+        </div>
+  </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

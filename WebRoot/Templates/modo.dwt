@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Gogo商场</title>
+<!-- TemplateEndEditable -->
+<link href="/shopping/css/index/index.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	* {
+		margin:0px;
+		font-size:12px;
+		color:#666666;
+	}
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div style="width:980px; margin:0px auto;">
+  <div id="top">
+    	<div id="con">
+        	<span class="c" style="padding-left:30px;"><a href="../front/index.html">Gogo首页</a></span>
+            <span>|</span>
+            <span class="c"><a href="../users/showForder.html">我的购物车</a></span>
+             <span>|</span>
+            <span class="c"><a href="../users/usersForder.html">我的Gogo</a></span>
+            <span style="margin-left:40px;">****欢迎光临Gogo商城！</span>
+            <span><strong style="color:#D369D7;">
+            	[<a href="../front/register.html" style="color:#D369D7;">注册</a>/<a href="../front/userLogin.html" style="color:#D369D7;">登录</a>]</strong>
+           	</span>        
+      	</div>
+   	 	<div id="logo">
+      		<img style="float:left;" src="/shopping/images/index/logo.jpg" width="220" height="80"/>
+            <div id="beat">
+            	<img style="float:left" src="/shopping/images/index/top_line2_search_01.gif" />
+                <form action="" method="post">
+                    <input id="text" type="text" name="text" style="" />
+                    <input id="submit" type="image" src="/shopping/images/index/top_line2_search_02.gif" />
+                    <input type="hidden" name=""/>
+              	</form>
+            </div>
+            <div id="car">
+            	<img style="float:left" src="/shopping/images/index/shop-left.jpg" />
+                <img style="float:right" src="/shopping/images/index/shop-right.jpg" />
+                <span style="color:#000000; margin-left:10px;">购物车：<span style="color:#FF0000; font:bold">0</span>件商品</span>
+                <span style="margin-left:15px;"><a href="../users/showForder.html" style="color:#FF0000;">去结算>></a></span>
+           	</div>
+      	</div>
+      	<div id="menu">
+      		<img style="float:left" src="/shopping/images/index/menu-l.gif" />
+        	<img style="float:right" src="/shopping/images/index/menu-r.gif" />
+            <ul>
+       		  	<li><a href="../front/index.html"><b>首页</b></a></li>
+               	<li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+                <li class="img"><img style="float:left;" src="/shopping/images/index/split.jpg" /></li>
+            	<li><a href="#"><b>经典的经典</b></a></li>
+        	</ul>
+    	</div>
+  </div>
+    
+    <!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
+    <div id="bot">
+       	  <div id="we">
+            	<a href="#">关于我们</a> – 
+                <a href="#">帮助中心</a> – 
+                <a href="#">配送方式</a> – 
+                <a href="#">支付方式</a> – 
+                <a href="#">客服中心</a> – 
+                <a href="#">友情链接</a> – 
+                <a href="#">诚聘英才</a> – 
+                <a href="#">产品招商</a> – 
+                <a href="#">送礼指南</a> – 
+                <a href="#">网站地图</a> 
+          </div>
+          <div id="info">
+           	  <p>Copyright © <a href="../front/index.html">Gogo</a> 2010-2012, All Rights Reserved</p>
+              <p>地址：郴州市苏仙区东铁营顺三条18号院(金隅中威商务花园)一号楼109-A</p>
+              <p>Tel: (0735) 888888 Fax: (0735) 8888888  Email:ghost675340058.com 湘ICP证090719号</p>
+              <p>本网站隶属于郴州清华IT--Ghost制作</p>
+              <hr />
+              <p style="color:#CC3300">Gogo商城与国内知名支付平台合作,确保您的交易安全! </p>
+              <img src="/shopping/images/index/boot_01.jpg" />
+              <img src="/shopping/images/index/boot_02.jpg" />
+              <img src="/shopping/images/index/boot_03.jpg" />
+              <img src="/shopping/images/index/boot_04.jpg" />
+              <img src="/shopping/images/index/logo123x40.jpg" />
+        </div>
+  </div>
+</div>
+</body>
+</html>

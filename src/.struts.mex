@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="dong" location="225,165" size="525,2800">
+    <action name="usersAction_*" location="310,75" size="150,146">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="usersLogin.jsp" />
+      </result>
+      <result name="show">
+        <resourceEdge source="show" routing="0" target="index.jsp" />
+      </result>
+      <result name="goto">
+        <resourceEdge source="goto" routing="0" target="goto.jsp" />
+      </result>
+      <result name="query">
+        <resourceEdge source="query" routing="0" target="queUsers.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="enrolSuccess.jsp" />
+      </result>
+      <result name="main">
+        <resourceEdge source="main" routing="0" target="main.jsp" />
+      </result>
+    </action>
+    <action name="categoryAction_*" location="310,2567" size="150,62">
+      <result name="query" />
+      <result name="main" />
+    </action>
+    <action name="looktype" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="queCategory.jsp" />
+      </result>
+    </action>
+    <action name="checkAction" location="0,0" size="0,0" />
+    <action name="TypeAction_*" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="yifu.jsp" />
+      </result>
+      <result name="xiezi">
+        <resourceEdge source="xiezi" routing="0" target="xiezi.jsp" />
+      </result>
+      <result name="maorong">
+        <resourceEdge source="maorong" routing="0" target="maorong.jsp" />
+      </result>
+      <result name="huazhuang">
+        <resourceEdge source="huazhuang" routing="0" target="huazhuang.jsp" />
+      </result>
+      <result name="shipin">
+        <resourceEdge source="shipin" routing="0" target="shipin.jsp" />
+      </result>
+    </action>
+    <action name="forderAction_*" location="65,2525" size="150,146">
+      <result name="showcar">
+        <resourceEdge source="showcar" routing="0" target="showCar.jsp" />
+      </result>
+      <result name="show">
+        <resourceEdge source="show" routing="0" target="show.jsp" />
+      </result>
+      <result name="query">
+        <resourceEdge source="query" routing="0" target="queForder.jsp" />
+      </result>
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="showLogin.jsp" />
+      </result>
+      <result name="querySorder">
+        <resourceEdge source="querySorder" routing="0" target="forderInfo.jsp" />
+      </result>
+      <result name="onlinePay">
+        <resourceEdge source="onlinePay" routing="0" target="onlinePay.jsp" />
+      </result>
+    </action>
+    <action name="goodsAction_*" location="65,1321" size="150,104">
+      <result name="query">
+        <resourceEdge source="query" routing="0" target="queGood.jsp" />
+      </result>
+      <result name="clothes">
+        <resourceEdge source="clothes" routing="0" target="showClothes.jsp" />
+      </result>
+      <result name="detail">
+        <resourceEdge source="detail" routing="0" target="detailGood.jsp" />
+      </result>
+      <result name="more">
+        <resourceEdge source="more" routing="0" target="more.jsp" />
+      </result>
+    </action>
+    <action name="accountAction_*" location="65,992" size="150,62">
+      <result name="alogin">
+        <resourceEdge source="alogin" routing="0" target="alogin.jsp" />
+      </result>
+      <result name="aindex">
+        <resourceEdge source="aindex" routing="0" target="aindex.jsp" />
+      </result>
+    </action>
+    <action name="onpayAction_*" location="65,827" size="150,41">
+      <result name="showorder">
+        <resourceEdge source="showorder" routing="0" target="goPay.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="usersLogin.jsp" path="/usersLogin.jsp" location="799,255" size="150,55" />
+  <webResource name="index.jsp" path="/index.jsp" location="560,10" size="150,55" />
+  <webResource name="goto.jsp" path="/goto.jsp" location="70,255" size="150,55" />
+  <webResource name="queUsers.jsp" path="/admin/queUsers.jsp" location="12,430" size="150,55" />
+  <webResource name="enrolSuccess.jsp" path="/enrolSuccess.jsp" location="58,605" size="150,55" />
+  <webResource name="main.jsp" path="/users/main.jsp" location="63,780" size="150,55" />
+  <webResource name="queCategory.jsp" path="/admin/queCategory.jsp" location="527,3020" size="150,55" />
+  <webResource name="main.jsp" path="/admin/main.jsp" location="796,2705" size="150,55" />
+  <webResource name="showCar.jsp" path="/users/showCar.jsp" location="52,2180" size="150,55" />
+  <webResource name="show.jsp" path="/show.jsp" location="70,2355" size="150,55" />
+  <webResource name="queForder.jsp" path="/admin/queForder.jsp" location="9,2530" size="150,55" />
+  <webResource name="showLogin.jsp" path="/user/showLogin.jsp" location="14,2705" size="150,55" />
+  <webResource name="forderInfo.jsp" path="/admin/forderInfo.jsp" location="10,2880" size="150,55" />
+  <webResource name="onlinePay.jsp" path="/users/onlinePay.jsp" location="295,3020" size="150,55" />
+  <webResource name="queGood.jsp" path="/admin/queGood.jsp" location="12,1480" size="150,55" />
+  <webResource name="showClothes.jsp" path="/showClothes.jsp" location="59,1655" size="150,55" />
+  <webResource name="detailGood.jsp" path="/detailGood.jsp" location="63,1830" size="150,55" />
+  <webResource name="more.jsp" path="/more.jsp" location="70,2005" size="150,55" />
+  <webResource name="alogin.jsp" path="/alogin.jsp" location="70,1130" size="150,55" />
+  <webResource name="aindex.jsp" path="/admin/aindex.jsp" location="56,1305" size="150,55" />
+  <webResource name="goPay.jsp" path="/users/goPay.jsp" location="59,955" size="150,55" />
+  <webResource name="yifu.jsp" path="/GogoType/yifu.jsp" location="0,0" size="0,0" />
+  <webResource name="xiezi.jsp" path="/GogoType/xiezi.jsp" location="0,0" size="0,0" />
+  <webResource name="maorong.jsp" path="/GogoType/maorong.jsp" location="0,0" size="0,0" />
+  <webResource name="huazhuang.jsp" path="/GogoType/huazhuang.jsp" location="0,0" size="0,0" />
+  <webResource name="shipin.jsp" path="/GogoType/shipin.jsp" location="0,0" size="0,0" />
+  <include file="struts-order.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+

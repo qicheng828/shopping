@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    <struts>
+    <package name="orders" extends="struts-default" namespace="/">
+		<action name="deleteorder" class="dong.shopping.imp.DeleteOrder" method="execute">
+			<result name="success" type="dispatcher">
+				/admin/aindex.jsp
+			</result>
+			<result name="cc" type="chain">
+				<param name="actionName">MyAuctionid</param>
+			</result>
+			<result name="aa" type="dispatcher">
+				/AuctionUserLogin.jsp
+			</result>
+		</action>
+		
+	</package>
+    
+    </struts>

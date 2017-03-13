@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/good.do" location="50,50" dimension="268,84" />
+  <StrutsActivity path="/account.do" location="650,150" dimension="286,84" />
+  <StrutsActivity path="/users.do" location="50,450" dimension="274,84" />
+  <StrutsActivity path="/forder.do" location="950,550" dimension="280,84" />
+  <StrutsActivity path="/sorder.do" location="350,650" dimension="280,84" />
+  <StrutsActivity path="/category.do" location="950,750" dimension="292,84" />
+  <StrutsActivity path="/olinePay.do" location="650,950" dimension="292,84" />
+  <StrutsActivity path="index;6" location="350,250" dimension="160,72" />
+  <StrutsActivity path="main;6" location="50,950" dimension="136,72" />
+  <StrutsActivity path="goto;6" location="950,350" dimension="100,72" />
+  <StrutsActivity path="/errors.jsp" location="950,50" dimension="106,48" />
+  <StrutsActivity path="" location="350,850" dimension="40,48" />
+  <StrutsActivity path="/index.jsp" location="650,350" dimension="100,48" />
+  <StrutsActivity path="/admin/main.jsp" location="350,1050" dimension="130,48" />
+  <StrutsActivity path="/goto.jsp" location="650,850" dimension="94,48" />
+  <StrutsActivity path="/queGood.jsp" location="650,450" dimension="112,48" />
+  <StrutsActivity path="/form/good.jsp" location="650,50" dimension="124,48" />
+  <StrutsActivity path="/form/account.jsp" location="50,250" dimension="142,48" />
+  <StrutsActivity path="/shopping/index.jsp" location="50,350" dimension="154,48" />
+  <StrutsActivity path="/form/users.jsp" location="650,550" dimension="130,48" />
+  <StrutsActivity path="/form/forder.jsp" location="50,650" dimension="136,48" />
+  <StrutsActivity path="/form/sorder.jsp" location="50,750" dimension="136,48" />
+  <StrutsActivity path="/form/category.jsp" location="50,850" dimension="148,48" />
+  <StrutsActivity path="/users/main.jsp" location="350,950" dimension="130,48" />
+  <StrutsActivity path="/u/main.jsp" location="1250,450" dimension="106,48" />
+  <StrutsTransition id="index;6,null,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="510,265" />
+      <AbsolutePoint location="700,265" />
+      <AbsolutePoint location="700,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id=",null,/category.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="370,850" />
+      <AbsolutePoint location="370,783" />
+      <AbsolutePoint location="950,783" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/errors.jsp,null,/sorder.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1003,98" />
+      <AbsolutePoint location="1003,295" />
+      <AbsolutePoint location="525,295" />
+      <AbsolutePoint location="525,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="goto;6,null,/goto.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="main;6,null,/admin/main.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="118,1022" />
+      <AbsolutePoint location="118,1074" />
+      <AbsolutePoint location="350,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/errors.jsp,null,/forder.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1033,98" />
+      <AbsolutePoint location="1033,195" />
+      <AbsolutePoint location="1090,195" />
+      <AbsolutePoint location="1090,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/errors.jsp,null,/users.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1056,74" />
+      <AbsolutePoint location="1143,74" />
+      <AbsolutePoint location="1143,513" />
+      <AbsolutePoint location="324,513" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/errors.jsp,null,/good.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="973,98" />
+      <AbsolutePoint location="973,113" />
+      <AbsolutePoint location="318,113" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/errors.jsp,null,/account.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,74" />
+      <AbsolutePoint location="793,74" />
+      <AbsolutePoint location="793,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
